@@ -1,0 +1,126 @@
+<div class="Inicio">
+            <a href="https://thatgamecompany.com/"><input type="button" value="Visitar página oficial" class="boton_TGC">
+            </a>
+        </div>
+
+.boton_TGC{
+    background-color: skyblue;
+    /*Margen de los bordes*/
+    border-radius: 8px;
+    /*Color de la fuente de letra*/
+    color: black;
+    font-family: Comic Sans MS; 
+}
+
+
+
+
+
+header{
+    /*Para que el contenido sea flexible a cambios*/
+    display: flex;
+    /*No me quedó muy claro pero para centrar contenido padre*/
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+<img src="Images/Sky_Logo.png" alt="Sky_Logo" class="Sky_Logo">
+        <img src="Images/Sky_Fuente.png" alt="Sky_Fuente" class="Sky_Fuente">
+
+.Sky_Fuente, .Sky_Logo{
+    width: 3em;
+    height: 3em; 
+    /*Margen lateral*/
+    margin: 2px;
+    /*Margen superior*/
+    padding: 1px;
+    /*borde, tamaño, solid, color*/
+    border: 2px solid #ccc;
+
+
+
+
+
+
+
+<header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Juegos</a></li>
+                <li><a href="#">Artículos</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </nav>
+        <div class="buscador">
+            <input type="text" placeholder="Buscar" required>
+            <div class="boton">
+
+            </div>
+        </div>
+    </header>
+
+/*Menú principal*/
+.menu{
+    /*No lo sé*/
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 100%;
+    margin: auto;
+}
+
+.menu li{
+    /*No lo sé*/
+    display: inline-block;
+    /*Centrar los textos en un bloque*/
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.menu li a{
+    /*Cambiar la decoración del texto*/
+    text-decoration: none;
+    /*Color de la fuente de la letra*/
+    color: white;
+    /*bordes*/
+    padding: 0.5em;
+    /*Aún no lo sé*/
+    display: block;
+}
+
+/*Para cuando se tenga el cursor encima de un botón*/
+.menu li:hover{
+    background: coral;
+    border-radius: 4px;
+}
+
+.buscador{
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    right: 0;
+}
+
+.buscador input{
+    width: 15em;
+    height: 3em;
+    /*Posición del texto*/
+    padding: 0 20px;
+    /*Tamaño del texto*/
+    font-size: 0.5em;
+    /*Color del texto*/
+    color: #000000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+
