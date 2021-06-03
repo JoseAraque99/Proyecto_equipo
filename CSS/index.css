@@ -16,7 +16,7 @@ p::selection{
         background: coral;
         color: white;
 }
-strong::selection{
+b::selection{
     background: coral;
     color: white;
 }
@@ -24,6 +24,7 @@ strong::selection{
 
 
 /*Menú principal*/
+
 .menu{
     /*No lo sé*/
     /* list-style: none; */
@@ -112,7 +113,6 @@ strong::selection{
 .nav{
     margin: 1em;
     display: block;
-    padding-top: 3em;
 }
 
 .nav p{
