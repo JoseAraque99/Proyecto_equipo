@@ -24,10 +24,6 @@ strong::selection{
 
 
 /*Menú principal*/
-header{
-    position: absolute;
-    width: 100%;
-}
 .menu{
     /*No lo sé*/
     /* list-style: none; */
