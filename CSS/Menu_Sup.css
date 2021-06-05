@@ -1,34 +1,9 @@
-body{
-    /*Color del fondo (background)*/
-    background-color: rgb(238, 238, 238);
-    /*Tipo de fuente de la letra*/
-    font-family: Calibri;
-    /*Tamaño de la fuente de la letra*/
-    font-size: 32px;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-/*Color del seleccionado en el tecto*/
-p::selection{
-        background: coral;
-        color: white;
-}
-b::selection{
-    background: coral;
-    color: white;
-}
-
 header{
     position: fixed;
     width: 100%;
-    margin-top: -36px;
 }
 
 /*Menú principal*/
-
 .menu{
     /*No lo sé*/
     /* list-style: none; */
@@ -112,57 +87,3 @@ header{
     width: 16em;
 }
 
-
-
-.nav{
-    padding-top: 20px;
-    margin: 1em;
-    display: block;
-}
-
-.nav p{
-    text-align: center;
-}
-
-.nav strong{
-    font-size: 50px;
-    display: block;
-    font-weight: bold;
-}
-
-#Sky_Background{
-    width: 100%;
-}
-
-
-
-.Hola{
-    padding: 1em;
-    display: flex;
-}
-
-.article{
-    width: 70%;
-}
-
-.imagen_publicidad{
-    padding: 2em;
-    width: 400px;
-}
-
-
-
-footer{
-    background: rgb(48, 48, 48);
-    width: 100%;
-    color: white;
-    text-align: center;
-}
-
-.video{
-    text-align: center;
-}
-.Video_Trailer{
-    width: 720px;
-    height: 405px;
-}

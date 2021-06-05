@@ -1,0 +1,97 @@
+body{
+    /*Color del fondo (background)*/
+    background-color: rgb(238, 238, 238);
+    /*Tipo de fuente de la letra*/
+    font-family: Calibri;
+    /*Tamaño de la fuente de la letra*/
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    padding: 1.5em;
+}
+.nav p{
+    font-family: Arial;
+    font-size: 16px;
+}
+b::selection{
+    background-color: coral;
+    color: white;
+}
+p::selection{
+    background-color: coral;
+    color: white;
+}
+
+
+
+#Parrafo{
+    font-size: 32px;
+}
+
+
+
+.juegos{
+    display: flex;
+}
+h3{
+    height: 0.5em;
+}
+
+.Sky_Game{
+    margin-right: 1em;
+    width: 160px;
+}
+#Sky{
+    width: 160px;
+}
+
+.Minecraft_Game{
+    margin-right: 1em;
+    width: 160px;
+}
+#Minecraft{
+    width: 160px;
+}
+
+.COD_Game{
+    margin-right: 1em;
+    width: 160px;
+}
+#COD{
+    width: 160px;
+}
+
+.LoLWR_Game{
+    margin-right: 1em;
+    width: 160px;
+}
+#LoLWR{
+    width: 160px;
+}
+
+.Genshin_Game{
+    margin-right: 1em;
+    width: 160px;
+}
+#Genshin{
+    width: 160px;
+}
+
+.LoL_Game{
+    margin-right: 1em;
+    width: 160px;
+}
+#LoL{
+    width: 160px;
+}
+
+/*-----------------------------------*/
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em 0 2em 0;
+}
