@@ -1,0 +1,113 @@
+body{
+    /*Color del fondo (background)*/
+    background-color: rgb(238, 238, 238);
+    /*Tipo de fuente de la letra*/
+    font-family: Calibri;
+    /*Tamaño de la fuente de la letra*/
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Color del seleccionado en el tecto*/
+p::selection{
+        background: coral;
+        color: white;
+}
+b::selection{
+    background: coral;
+    color: white;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    margin-top: -36px;
+}
+
+/*Menú principal*/
+
+.menu{
+    /*No lo sé*/
+    /* list-style: none; */
+    padding: 0;
+    background: black;
+    width: 100%;
+    margin: auto;
+}
+.menu li{
+    /*No lo sé*/
+    display: inline-block;
+    /*Centrar los textos en un bloque*/
+    text-align: center;
+    font-size: 0.8em;
+}
+.menu li a{
+    /*Cambiar la decoración del texto*/
+    text-decoration: none;
+    /*Color de la fuente de la letra*/
+    color: white;
+    /*bordes*/
+    padding: 0.5em;
+    /*Aún no lo sé*/
+    display: block;
+}
+/*Para cuando se tenga el cursor encima de un botón*/
+.menu li:hover{
+    background: coral;
+    border-radius: 4px;
+}
+.menu{
+    z-index: 100;
+}
+.buscador{
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    right: 0;
+}
+.buscador input{
+    width: 0em;
+    height: 2.5em;
+    /*Posición del texto*/
+    padding: 0 20px;
+    /*Tamaño del texto*/
+    font-size: 0.5em;
+    /*Color del texto*/
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+}
+.boton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    width: 55px;
+    height: 55px;
+    /*posición de la lupa entre arriba y abajo*/
+    line-height: 55px;
+    /*mantiene la lupa en su lugar (centro)*/
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    /*al pasar por encima el cursor cambia*/
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: coral;
+}
+/*tamaño del buscador*/
+.buscador:hover input{
+    width: 16em;
+}
+
+/*al presionar sobre el buscador, se mantiene la barra*/
+.buscador input:focus{
+    width: 16em;
+}
