@@ -21,7 +21,11 @@ b::selection{
     color: white;
 }
 
-
+header{
+    position: fixed;
+    width: 100%;
+    margin-top: -36px;
+}
 
 /*Menú principal*/
 
@@ -111,6 +115,7 @@ b::selection{
 
 
 .nav{
+    padding-top: 20px;
     margin: 1em;
     display: block;
 }
