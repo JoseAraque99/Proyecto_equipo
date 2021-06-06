@@ -79,14 +79,21 @@ h3{
     width: 160px;
 }
 
-.LoL_Game{
+/* .LoL_Game{
     margin-right: 1em;
     width: 160px;
 }
 #LoL{
     width: 160px;
-}
+} */
 
+.Pubg_Game{
+    margin-right: 1em;
+    width: 160px;
+}
+#Pubg{
+    width: 160px;
+}
 /*-----------------------------------*/
 
 footer{
