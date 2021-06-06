@@ -14,6 +14,23 @@ header{
     margin-left: -8px;
 }
 
+.nav{
+    padding: 1em;
+}
+
+.nav p{
+    font-family: Arial;
+    font-size: 16px;
+}
+b::selection{
+    background-color: coral;
+    color: white;
+}
+p::selection{
+    background-color: coral;
+    color: white;
+}
+
 /*-------------------------------------------*/
 
 /*Menú principal*/
