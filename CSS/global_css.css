@@ -1,7 +1,8 @@
 body{
     background-color: rgb(238, 238, 238);
     font-family: Calibri;
-    font-size: 32px;
+    font-size: 30px;
+    margin: 0px;
 }
 
 /*-------------------------------------------*/
@@ -9,11 +10,10 @@ body{
 header{
     position: fixed;
     width: 100%;
-    height: 2em;
-    margin-top: -8px;
-    margin-left: -8px;
+    font-size: 25px;
 }
 
+/*-------------------------------------------*/
 .nav{
     padding: 1em;
 }
@@ -23,11 +23,11 @@ header{
     font-size: 16px;
 }
 b::selection{
-    background-color: coral;
+    background-color: lightblue;
     color: white;
 }
 p::selection{
-    background-color: coral;
+    background-color: lightblue;
     color: white;
 }
 
@@ -38,7 +38,7 @@ p::selection{
     /*No lo sé*/
     /* list-style: none; */
     padding: 0;
-    background: black;
+    background: rgb(2, 1, 44);
     width: 100%;
     margin: auto;
 }
@@ -61,23 +61,22 @@ p::selection{
 }
 /*Para cuando se tenga el cursor encima de un botón*/
 .menu li:hover{
-    background: coral;
-    border-radius: 4px;
+    background: lightblue;
 }
 .menu{
     z-index: 100;
 }
 .buscador{
     position: absolute;
-    padding: 5px;
+    padding: 1px;
     top: 0;
     right: 0;
 }
 .buscador input{
     width: 0em;
-    height: 2.5em;
+    height: 2em;
     /*Posición del texto*/
-    padding: 0 20px;
+    padding: 0 10px;
     /*Tamaño del texto*/
     font-size: 0.5em;
     /*Color del texto*/
@@ -91,11 +90,11 @@ p::selection{
     position: absolute;
     top: 0;
     right: 0;
-    background: #000;
-    width: 55px;
-    height: 55px;
+    background: rgb(2, 0, 27);
+    width: 40px;
+    height: 40px;
     /*posición de la lupa entre arriba y abajo*/
-    line-height: 55px;
+    line-height: 40px;
     /*mantiene la lupa en su lugar (centro)*/
     text-align: center;
     color: white;
@@ -105,7 +104,7 @@ p::selection{
     cursor: pointer;
 }
 .boton:hover{
-    background-color: coral;
+    background-color: lightblue;
 }
 /*tamaño del buscador*/
 .buscador:hover input{
@@ -120,10 +119,9 @@ p::selection{
 /*-------------------------------------------------------*/
 
 footer{
-    background-color: black;
+    background-color: rgb(2, 1, 44);
     color: white;
     text-align: center;
     padding: 2em 0 2em 0;
     width: 100%;
-    margin-left: -8px;
 }

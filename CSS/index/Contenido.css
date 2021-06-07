@@ -1,68 +1,132 @@
 #Parrafo{
-    font-size: 32px;
+    font-size: 25px;
 }
 
+.Minecraft_bg{
+    width: 100%;
+}
+.titulo{
+    margin-top: -2em;
+    color: white;
+}
 
-
+.text{
+    text-decoration: none;
+    color: black;
+}
+.text:hover{
+    background-color: darkgray;
+}
 .juegos{
-    display: flex;
+    display:inline-flex;
 }
 h3{
     height: 0.5em;
 }
 
+p b{
+    font-size: 20px;
+}
+p{
+    margin: 0em;
+}
+
 .Sky_Game{
-    margin-right: 1em;
-    width: 160px;
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
 }
 #Sky{
-    width: 160px;
+    width: 150px;
 }
 
 .Minecraft_Game{
-    margin-right: 1em;
-    width: 160px;
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
 }
 #Minecraft{
-    width: 160px;
+    width: 150px;
 }
 
 .COD_Game{
-    margin-right: 1em;
-    width: 160px;
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
 }
 #COD{
-    width: 160px;
+    width: 150px;
 }
 
 .LoLWR_Game{
-    margin-right: 1em;
-    width: 160px;
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
 }
 #LoLWR{
-    width: 160px;
+    width: 150px;
 }
 
 .Genshin_Game{
-    margin-right: 1em;
-    width: 160px;
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
 }
 #Genshin{
-    width: 160px;
+    width: 150px;
 }
 
 .LoL_Game{
-    margin-right: 1em;
-    width: 160px;
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
 }
 #LoL{
-    width: 160px;
+    width: 150px;
 }
 
 .Pubg_Game{
-    margin-right: 1em;
-    width: 160px;
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
 }
 #Pubg{
-    width: 160px;
+    width: 150px;
+}
+
+.Amongus_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#Amongus{
+    width: 150px;
+}
+
+.Asphalt9{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#Asphalt9{
+    width: 150px;
+}
+
+.REV_Game{
+    margin: 16px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 150px;
+}
+#REV_Game{
+    width: 150px;
 }
