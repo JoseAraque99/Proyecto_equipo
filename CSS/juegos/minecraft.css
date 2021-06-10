@@ -1,0 +1,10 @@
+.nav p{
+    font-size: 27px;
+}
+.minecraft_bg{
+    margin: 10px;
+    padding: 10px;
+    width: 97%;
+    height: 600px;
+    background: url('../../Images/minecraft.jpg') no-repeat center center/cover;
+}
